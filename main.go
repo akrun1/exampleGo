@@ -1,1 +1,7 @@
-package exampleGo
+package main
+
+import "fmt"
+
+func main() {
+	fmt.Println("wassup")
+}
