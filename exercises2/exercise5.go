@@ -4,10 +4,11 @@ import (
 	"fmt"
 )
 
-var a string = `Hello, this is 
-		what I meant
-		about you`
+
 func main() {
+
+	a := `here is something
+		as a raw string literal
+		"you see"`
 	fmt.Println(a)
 }
-
