@@ -5,8 +5,8 @@ import (
 )
 
 func main() {
-
-	switch "Bond" {
+	n := "Bond"
+	switch n{
 	case "Moneypenny":
 		fmt.Println("miss money")
 	case "Bond":
@@ -18,4 +18,3 @@ func main() {
 	}
 
 }
-
