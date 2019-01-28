@@ -15,4 +15,8 @@ func main() {
 	x = append(x, y...)
 	fmt.Println(x)
 
+	x = append(x[:2], x[4:]...)
+	fmt.Println(x)
+
 }
+
