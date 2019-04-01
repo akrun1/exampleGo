@@ -1,0 +1,13 @@
+package main
+
+import "fmt"
+
+func main() {
+	c := make(chan int, 2)
+
+	c <- 42
+	c <- 43
+
+	fmt.Println("c: ", <-c)
+	fmt.Println("c: ", <-c)
+}
